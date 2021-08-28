@@ -1,14 +1,19 @@
-<h2>AVRdude</h2>
+# AVRdude
 
-<h3>Install AVRdude</h3>
-https://sourceforge.net/projects/winavr/
+## Installations
+Find and install winavr (as of this writing, this can be found at https://sourceforge.net/projects/winavr/ )
+Install adafruit_drivers_2.0.0.0.exe which is included in this repo.
 
-<h3>Install AVRdude</h3>
-Install adafruit_drivers_2.0.0.0 
+## Connect your AVR programmer (in my case I am using the TinyISP AVR programmer from Adadruit 
+https://www.adafruit.com/product/46
 
-<h3>Example</h3>
+## Flashing the chip from Command Prompt 
+
+Navigate in CMD prompt to the directory of your tvbgone.hex file (in this example, I have it in c: drive, then enter the following instruction 
 
 avrdude -c usbtiny -p attiny85 -U flash:w:tvbgone.hex -U lfuse:w:0xfe:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
+
+## Example
 
 C:\>avrdude -c usbtiny -p attiny85 -U flash:w:tvbgone.hex -U lfuse:w:0xfe:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
 
