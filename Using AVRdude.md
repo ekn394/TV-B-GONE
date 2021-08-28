@@ -15,6 +15,9 @@ https://www.adafruit.com/product/46
 <br>
 avrdude -c usbtiny -p attiny85 -U flash:w:tvbgone.hex -U lfuse:w:0xfe:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
 
+These "fuse switches" were made with the help of 
+https://www.engbedded.com/fusecalc/
+
 ## Example
 
 C:\>avrdude -c usbtiny -p attiny85 -U flash:w:tvbgone.hex -U lfuse:w:0xfe:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
