@@ -1,4 +1,4 @@
-Wiring Diagram
+Circuit Diagram
 
 ![image](https://user-images.githubusercontent.com/12129459/131227833-0edbaa70-833b-417c-b47c-88630977a77e.png)
 
@@ -10,3 +10,6 @@ Alternate Text PCB Top View
 
 ![image](https://user-images.githubusercontent.com/12129459/131227873-05063c25-f240-48d8-ae2d-441a1d43ebd4.png)
 
+Wiring diagram to program the ATtiny 
+
+![image](https://user-images.githubusercontent.com/12129459/131228288-d110e167-e04b-43b1-accf-412a2d745a1c.png)
