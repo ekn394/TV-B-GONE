@@ -1,9 +1,10 @@
 # AVRdude
 
 ## Installations
-<li>Find and install winavr (as of this writing, this can be found at https://sourceforge.net/projects/winavr/ )</li>
 
 <li>Install adafruit_drivers_2.0.0.0.exe which is included in this repo.</li>
+
+<li>Find and install winavr (as of this writing, this can be found at https://sourceforge.net/projects/winavr/ )</li>
 
 ## Connect your AVR programmer (in my case I am using the TinyISP AVR programmer from Adadruit 
 https://www.adafruit.com/product/46
@@ -14,7 +15,7 @@ https://www.adafruit.com/product/46
 <li>Enter the following instruction </li>
 <br>
 avrdude -c usbtiny -p attiny85 -U flash:w:tvbgone.hex -U lfuse:w:0xfe:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
-
+<br><br>
 These "fuse switches" were made with the help of 
 https://www.engbedded.com/fusecalc/
 
