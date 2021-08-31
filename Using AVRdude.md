@@ -1,10 +1,10 @@
 # AVRdude
 
-## Installations
+## Installations (for Windows)
 
-<li>Install adafruit_drivers_2.0.0.0.exe which is included in this repo.</li>
+<li>Install adafruit_drivers_2.0.0.0.exe (included in this repo, but downloadable from https://learn.adafruit.com/usbtinyisp/drivers).</li>
 
-<li>Find and install winavr (as of this writing, this can be found at https://sourceforge.net/projects/winavr/ )</li>
+<li>Install Winavr (included in this repo, but can be downloaded from https://sourceforge.net/projects/winavr/)</li>
 
 ## Connect your AVR programmer (in my case I am using the TinyISP AVR programmer from Adadruit 
 https://www.adafruit.com/product/46
