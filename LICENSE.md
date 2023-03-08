@@ -22,7 +22,7 @@ You do not have to comply with the license for elements of the material in the p
 
 ****************
 
-This project is modified from Adafruit's TV-B-Gone kit (see <a href="https://learn.adafruit.com/assets/6198"> Creative Commons Share-Alike Licence </a>)
+This project is modified from Adafruit's TV-B-Gone kit (see <a href="https://learn.adafruit.com/assets/6198"> Creative Commons ShareAlike Licence </a>)
 
 Modifications include:
 <li> Removal of ISP connections. </li>
